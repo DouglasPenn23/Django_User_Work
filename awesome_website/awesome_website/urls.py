@@ -18,6 +18,7 @@ from django.conf.urls import include
 from django.contrib import admin
 from django.urls import re_path, path
 
+# DOODLEBOOB FROM SPONGEBOB IS NOT REAL
 urlpatterns = [
     re_path(r"^", include("users.urls")),
     re_path(r"^admin/", admin.site.urls),
